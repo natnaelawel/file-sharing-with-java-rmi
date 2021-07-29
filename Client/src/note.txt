@@ -1,0 +1,11 @@
+What is it?
+The application is explained below:
+
+    There is a central indexing server that maintains an index of all the files present on each of the client connected to it.
+
+    There are several clients called as peers which act as both client as well as server
+
+    Whenever a client has to ask for a file, the request goes to the central server which finds the client which has the file.
+    The central server, then returns the ip address of the peer which has the required file
+
+    The client then directly connects to the peer which has the file and establishes a connection with it and downloads the file in the shared directory.
